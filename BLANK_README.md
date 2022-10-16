@@ -3,9 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/shreyash-sharma/pong-cpp-wasm">
     <img src="https://m.media-amazon.com/images/I/31aTZdQmP9L.png" alt="Logo" width="80" height="80">
-  </a>
 
 <h3 align="center">Pong_WASM</h3>
 </div>
@@ -13,7 +11,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-![31aTZdQmP9L](https://user-images.githubusercontent.com/14334982/196042220-39180d78-e675-4ccb-bbbf-c905647d3828.png)
 
 Well, you know what Paul said right, "The best way to learn is to do". So in my quest to understand the intricacies of the super powerful and super fast (tested here) WASM, I decided to code.
 
