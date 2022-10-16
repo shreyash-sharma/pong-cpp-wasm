@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/shreyash-sharma/pong-cpp-wasm">
-    ![31aTZdQmP9L](https://user-images.githubusercontent.com/14334982/196042010-e77d71da-83ae-48a6-91a3-c8a362b32ef8.png)
+    <img src="https://m.media-amazon.com/images/I/31aTZdQmP9L.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Pong_WASM</h3>
