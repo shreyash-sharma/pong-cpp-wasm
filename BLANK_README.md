@@ -6,7 +6,6 @@
     <img src="https://m.media-amazon.com/images/I/31aTZdQmP9L.png" alt="Logo" width="80" height="80">
 
 <h3 align="center">Pong_WASM</h3>
-</div>
 ![31aTZdQmP9L](https://user-images.githubusercontent.com/14334982/196042212-e2dbda8c-2a6b-4967-bced-a817103aa107.png)
 
 <!-- ABOUT THE PROJECT -->
