@@ -9,7 +9,7 @@
 
 <h3 align="center">Pong_WASM</h3>
 
-
+</div>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
