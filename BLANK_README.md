@@ -1,15 +1,9 @@
 <a name="readme-top"></a>
 
 <!-- PROJECT LOGO -->
-<br />
-<div align="center">
-    <img src="https://m.media-amazon.com/images/I/31aTZdQmP9L.png" alt="Logo" width="80" height="80">
-
+![logo](https://user-images.githubusercontent.com/14334982/196043301-81296538-65b4-4e2e-93d6-51bb325d5811.png)
 <h3 align="center">Pong_WASM</h3>
-</div>
 
-## Pong WASM
-![31aTZdQmP9L](https://user-images.githubusercontent.com/14334982/196042212-e2dbda8c-2a6b-4967-bced-a817103aa107.png)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
