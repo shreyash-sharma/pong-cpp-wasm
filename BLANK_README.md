@@ -14,6 +14,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+![31aTZdQmP9L](https://user-images.githubusercontent.com/14334982/196042220-39180d78-e675-4ccb-bbbf-c905647d3828.png)
 
 Well, you know what Paul said right, "The best way to learn is to do". So in my quest to understand the intricacies of the super powerful and super fast (tested here) WASM, I decided to code.
 
