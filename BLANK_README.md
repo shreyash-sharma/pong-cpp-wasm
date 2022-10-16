@@ -1,7 +1,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/shreyash-sharma/pong-cpp-wasm">
-    <img src="https://user-images.githubusercontent.com/14334982/196043530-56af2cb5-b250-48e0-a716-91373a8fb09d.png" alt="Logo" width="80" height="80">
+    <img src="https://user-images.githubusercontent.com/14334982/196043530-56af2cb5-b250-48e0-a716-91373a8fb09d.png" alt="Logo" width="250" height="180">
   </a>
 
 <h3 align="center">Pong_WASM</h3>
