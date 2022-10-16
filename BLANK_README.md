@@ -1,9 +1,12 @@
-<a name="readme-top"></a>
+<br />
+<div align="center">
+  <a href="https://github.com/shreyash-sharma/pong-cpp-wasm">
+    <img src="https://user-images.githubusercontent.com/14334982/196043530-56af2cb5-b250-48e0-a716-91373a8fb09d.png" alt="Logo" width="80" height="80">
+  </a>
 
-<!-- PROJECT LOGO -->
-![logo](https://user-images.githubusercontent.com/14334982/196043301-81296538-65b4-4e2e-93d6-51bb325d5811.png)
 <h3 align="center">Pong_WASM</h3>
 
+</div>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -21,6 +24,7 @@ You can play the live demo here : http://93.119.181.99:8000/
 
 If you liked it, don't forget to give a star.
 
+![Untitled](https://user-images.githubusercontent.com/14334982/196043999-ec9678f2-a3d9-49ca-a1b5-0e2b2f8a9a7e.gif)
 
 ### Built With
 
