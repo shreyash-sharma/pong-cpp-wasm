@@ -311,11 +311,11 @@ void updatePosition(GameState& gameState) {
 }
 
 void drawPaddles(SDL_Renderer* renderer, const Paddle& left, const Paddle& right) {
-    SDL_SetRenderDrawColor(renderer, 255, 0, 0, 255);
+    SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
     SDL_Rect leftRect = {(int)left.xpos, (int)left.ypos - 50, 25, 100};
     SDL_RenderFillRect(renderer, &leftRect);
 
-    SDL_SetRenderDrawColor(renderer, 0, 0, 255, 255);
+    SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
     SDL_Rect rightRect = {(int)right.xpos, (int)right.ypos - 50, 25, 100};
     SDL_RenderFillRect(renderer, &rightRect);
 }
