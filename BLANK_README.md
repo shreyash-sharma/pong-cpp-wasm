@@ -30,9 +30,9 @@ If you liked it, don't forget to give a star.
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
+* ![cpp](https://user-images.githubusercontent.com/14334982/196041931-f7775f4e-3d83-4f32-b33f-d99d6832dfef.png)
+* ![WA](https://user-images.githubusercontent.com/14334982/196041937-46093e99-a134-4ab1-9c5f-53bbe2f4cdea.png)
+* ![python](https://user-images.githubusercontent.com/14334982/196041949-a8acc74e-c367-40bc-9758-af61962317af.png)
 
 
 
