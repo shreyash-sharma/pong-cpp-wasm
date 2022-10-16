@@ -11,7 +11,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Well, you know what Paul said right, "The best way to learn is to do". So in my quest to understand the intricacies of the super powerful and super fast (tested here) WASM, I decided to code.
+Well, you know what Paul said right, "The best way to learn is to do". So in my quest to understand the intricacies of the super powerful and super fast (tested <a href ="https://github.com/shreyash-sharma/wasm-cpp-js-timeComparison">here</a>) WASM, I decided to code.
 
 I wanted to code something cool, nothing's cooler than video games, and the coolest game ever created was Pong.
 
