@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/shreyash-sharma/pong-cpp-wasm">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    ![31aTZdQmP9L](https://user-images.githubusercontent.com/14334982/196042010-e77d71da-83ae-48a6-91a3-c8a362b32ef8.png)
   </a>
 
 <h3 align="center">Pong_WASM</h3>
@@ -30,9 +30,9 @@ If you liked it, don't forget to give a star.
 
 ### Built With
 
-* ![cpp](https://user-images.githubusercontent.com/14334982/196041931-f7775f4e-3d83-4f32-b33f-d99d6832dfef.png)
-* ![WA](https://user-images.githubusercontent.com/14334982/196041937-46093e99-a134-4ab1-9c5f-53bbe2f4cdea.png)
-* ![python](https://user-images.githubusercontent.com/14334982/196041949-a8acc74e-c367-40bc-9758-af61962317af.png)
+* ![cpp](https://user-images.githubusercontent.com/14334982/196041931-f7775f4e-3d83-4f32-b33f-d99d6832dfef.png) - C++
+* ![WA](https://user-images.githubusercontent.com/14334982/196041937-46093e99-a134-4ab1-9c5f-53bbe2f4cdea.png) - WebAssembly
+* ![python](https://user-images.githubusercontent.com/14334982/196041949-a8acc74e-c367-40bc-9758-af61962317af.png) - Python
 
 
 
