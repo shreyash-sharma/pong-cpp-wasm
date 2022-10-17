@@ -66,7 +66,8 @@ If you liked it, don't forget to give a star.
    ```sh
    make run
    ```
-7. Clean-up
+7. Navigate to http://localhost:9000/
+8. Clean-up
    ```sh
    make clean
    ```
