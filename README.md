@@ -24,7 +24,7 @@ You can play the live demo here : http://93.119.181.99:9000/
 
 If you liked it, don't forget to give a star.
 
-![pong](https://user-images.githubusercontent.com/14334982/196065801-e5a13ac3-04af-4433-948b-6654d3458306.gif)
+![Untitled](https://user-images.githubusercontent.com/14334982/196087481-1f1eac3b-9c0b-4339-a078-3b342b3794d6.gif)
 
 
 ### Built With
