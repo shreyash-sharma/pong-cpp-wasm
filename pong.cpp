@@ -17,8 +17,6 @@
 std::thread t1;
 #endif
 
-#include "boost/date_time/gregorian/gregorian.hpp"
-
 #include <emscripten/emscripten.h>
 #include <emscripten/bind.h>
 #include <emscripten/fetch.h>
@@ -231,42 +229,12 @@ void makeAIMove(Ball ball, Paddle& leftPaddle) {
     }
 }
 
-std::pair<int, int> getScores(const std::string& name){
-    
-    const std::string fileName("/data/gameScore/" + name);
-    if(std::filesystem::exists(fileName)){
-        std::ifstream ifs(fileName, std::ifstream::in);
-        int leftScore, rightScore;
-        ifs >> leftScore >> rightScore;
-        return {leftScore, rightScore};
-    }
-    return {0,0};
-}
-
-
 GameState createInitialGameState(const std::string& name){
     auto [leftScore, rightScore] = getScores(name);
     drawCanvas(600, 800);
     return GameState{name, leftScore, rightScore};
 }
 
-
-void persistScore(const GameState& gameState) {
-    if(!std::filesystem::exists("/data/gameScore")){
-        std::filesystem::create_directory("/data/gameScore");
-    }
-
-    std::stringstream ss;
-    ss << gameState.leftScore << " " << gameState.rightScore; 
-
-    using namespace boost::gregorian;
-    std::string ud("20200220");
-    date d1(from_undelimited_string(ud));
-    ss << "\n" << d1 << "\n" << std::flush;
-    
-    debugLog.logMessage(ss.str(), gameState.name);
-    postToLeaderboard(gameState.name, gameState.leftScore, gameState.rightScore);
-}
 
 void updatePosition(GameState& gameState) {
 
@@ -332,23 +300,6 @@ void drawDottedLine(SDL_Renderer* renderer) {
         SDL_Rect rect = { 397, i*30+7, 5, 15};
         SDL_RenderFillRect(renderer, &rect);
     }
-}
-
-void drawDebugInformation(SDL_Renderer* renderer) {
-    auto fpsSurface = TTF_RenderText_Blended(font, (std::to_string(fps) + " Frames / Second").c_str(), {255, 255, 255, 255});
-    auto fpsTexture = SDL_CreateTextureFromSurface(renderer, fpsSurface);
-    SDL_Rect fpsRect = {650, 560, 150, 20};
-    SDL_RenderCopy(renderer, fpsTexture, nullptr, &fpsRect);
-
-    auto averageTiming = std::accumulate(timings.begin(), timings.end(), 0.0) / timings.size();
-    auto timingSurface = TTF_RenderText_Blended(font, (std::to_string(averageTiming) + " ms render").c_str(), {255, 255, 255, 255});
-    auto timingTexture = SDL_CreateTextureFromSurface(renderer, timingSurface);
-    SDL_Rect timingRect = {650, 580, 150, 20};
-    SDL_RenderCopy(renderer, timingTexture, nullptr, &timingRect);
-    
-    SDL_FreeSurface(fpsSurface);
-    SDL_FreeSurface(timingSurface);
-
 }
 
 void drawScores(SDL_Renderer* renderer, int leftScore, int rightScore) {
